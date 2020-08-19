@@ -43,6 +43,16 @@ button:hover {
     width: 70%;
     margin: auto;
 }
+.container::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+/*
+.clearfix {
+    clear: both;
+}
+*/
 /******************
 header
 ******************/
@@ -89,5 +99,29 @@ one
 .one article:nth-child(3) {
     padding-top: 60px;
 }
-
+/******************
+two
+******************/
+.two {
+    background: var(--orange);
+    padding: 80px 0;
+    text-align: center;
+    color: var(--white);
+}
+.two h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.two blockquote {
+    opacity: .6;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.two h5 {
+    font-size: 1.1rem;
+}
+.two p {
+    opacity: .6;
+}
 
