@@ -124,4 +124,53 @@ two
 .two p {
     opacity: .6;
 }
+/******************
+three
+******************/
+.three {
+    padding: 80px 0;
+}
+.three article {
+    width: 33%;
+    float: left;
+}
+.three article .wrapper {
+    margin: 30px;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+}
+.three .img1 {
+    background-image: url(img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.three .img2 {
+    background-image: url(img/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.three .img3 {
+    background-image: url(img/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.three .text {
+    padding: 30px;
+    text-align: justify;
+}
+.three h3 {
+    color: var(--blue);
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
 
