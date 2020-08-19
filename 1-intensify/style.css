@@ -39,6 +39,10 @@ button:hover {
     background: var(--blue);
     transition: var(--transition);
 }
+.container {
+    width: 70%;
+    margin: auto;
+}
 /******************
 header
 ******************/
@@ -59,8 +63,31 @@ header p {
     font-weight: 300;
     font-size: 1.3rem;
 }
-
-
-
+/******************
+one
+******************/
+.one {
+    padding: 80px 0;
+}
+.one article {
+    width: 33%;
+    float: left;
+    padding: 30px;
+}
+.one img {
+    width: 100%;
+    border-radius: 50%;
+}
+.one h2 {
+    color: var(--blue);
+    padding-bottom: 10px;
+}
+.one article:nth-child(1) {
+    text-align: right;
+    padding-top: 60px;
+}
+.one article:nth-child(3) {
+    padding-top: 60px;
+}
 
 
