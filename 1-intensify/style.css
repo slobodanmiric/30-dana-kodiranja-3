@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Pacifico&display=swap');
+
+:root {
+    --orange: #f6755e;
+    --blue: #25a2c3;
+    --white: #fff;
+    --gray: #767d85;
+    --bodyFont: 'Montserrat', sans-serif;
+    --transition: .3s ease;
+    --font: 16px;
+}
+/******************
+basic styles
+******************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: var(--font);
+    font-family: var(--bodyFont);
+    color: var(--gray);
+    line-height: 1.6;
+}
