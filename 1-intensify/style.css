@@ -186,7 +186,30 @@ footer .three-columns article {
 footer i {
     color: var(--orange);
 }
-
+/******************
+R E S P O N S I V E
+******************/
+@media(max-width: 768px) {
+    header  {
+        padding: 40px
+    }
+    .one article {
+        width: 100%;
+    }
+    .container {
+        width: 90%;
+    }
+    .one article:nth-child(1) {
+        text-align: left;
+    }
+    .three article {
+        width: 100%;
+        float: left;
+    }
+    footer .three-columns article {
+        width: 100%;
+    }
+}
 
 
 
