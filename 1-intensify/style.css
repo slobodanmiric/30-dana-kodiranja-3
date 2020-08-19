@@ -165,8 +165,27 @@ three
     color: var(--blue);
     font-size: 1.5rem;
 }
-
-
+/******************
+footer
+******************/
+footer {
+    background: var(--blue);
+    padding: 80px 0;
+    text-align: center;
+    color: var(--white);
+}
+footer h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+footer .three-columns article {
+    width: 33%;
+    float: left;
+    padding: 30px
+}
+footer i {
+    color: var(--orange);
+}
 
 
 
