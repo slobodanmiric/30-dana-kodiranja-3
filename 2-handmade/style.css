@@ -145,7 +145,27 @@ products
     font-size: 1.5rem;
     padding: 20px 0;
 }
-
+/*****************
+footer
+*****************/
+footer {
+    padding: var(--padding);
+    background: var(--gray);
+    color: var(--white);
+    text-align: center;
+}
+footer .fa-heart {
+    color: red;
+}
+footer .fab {
+    color: var(--orange);
+    margin: 10px;
+    font-size: 2rem;
+}
+footer .fab:hover {
+    color: var(--white);
+    transition: var(--transition);
+}
 
 
 
