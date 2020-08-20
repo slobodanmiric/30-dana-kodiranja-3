@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap');
+:root {
+    --black: #000;
+    --orange: #ff8a0e;
+    --gray: #404040;
+    --lightgray: #f3f3f3;
+    --white: #fff;
+    --padding: 70px 0;
+}

@@ -191,7 +191,10 @@ R E S P O N S I V E
 ******************/
 @media(max-width: 768px) {
     header  {
-        padding: 40px
+        padding: 40px;
+/*        background: lightgray;*/
+/*        display: none;*/
+/*        visibility: hidden;*/
     }
     .one article {
         width: 100%;
