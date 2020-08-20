@@ -7,7 +7,11 @@
     --white: #fff;
     --padding: 70px 0;
     --font: 16px;
+    --transition: .3s ease;
 }
+/*****************
+basic styles
+*****************/
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +28,37 @@ a {
 }
 ul {
     list-style: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+h2::after {
+    display: block;
+    content: "";
+    width: 80px;
+    background: var(--orange);
+    height: 3px;
+    margin: 20px auto;
+}
+button {
+    background: var(--orange);
+    border: none;
+    padding: 15px 60px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: .9rem;
+    letter-spacing: 2px;
+}
+button:hover {
+    background: var(--gray);
+    cursor: pointer;
+    transition: var(--transition);
+    color: var(--white);
 }
 /*****************
 header
@@ -58,6 +93,35 @@ header nav ul li {
 header nav ul li a {
     color: var(--white);
 }
+/*****************
+about
+*****************/
+.about {
+    padding: var(--padding);
+    background: var(--lightgray);
+    text-align: center;
+}
+.about h2 {
+    font-size: 2.5rem;
+}
+/*****************
+services
+*****************/
+.services {
+    padding: var(--padding);
+}
+.services article {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 0 30px;
+}
+.services article h3 {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+
 
 
 
