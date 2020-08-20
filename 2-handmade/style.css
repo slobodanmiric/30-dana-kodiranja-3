@@ -33,6 +33,11 @@ ul {
     width: 80%;
     margin: auto;
 }
+.container::after {
+    display: block;
+    content: "";
+    clear: both;
+}
 h2 {
     font-size: 2rem;
     text-align: center;
@@ -120,9 +125,26 @@ services
     font-size: 1.5rem;
     padding-bottom: 20px;
 }
-
-
-
+/*****************
+products
+*****************/
+.products {
+    padding: var(--padding);
+    background: var(--lightgray);
+    text-align: center;
+}
+.products img {
+    width: 100%;
+}
+.products article {
+    width: 25%;
+    float: left;
+    padding: 30px;
+}
+.products h5 {
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
 
 
 
