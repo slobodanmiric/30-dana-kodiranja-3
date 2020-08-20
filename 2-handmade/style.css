@@ -166,6 +166,51 @@ footer .fab:hover {
     color: var(--white);
     transition: var(--transition);
 }
+/*****************
+RESPONSIVE
+*****************/
+@media(min-width: 1200px) {
 
+}
+@media(min-width: 768px) and (max-width: 1024px) {
+    .products article {
+        width: 50%;
+        padding: 30px;
+        margin-bottom: 40px;
+    }
+}
+@media(max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    header {
+        border-bottom: 10px solid rgba(0,0,0,.5);
+    }
+    header h1 {
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+    header nav {
+        margin-left: 20px;
+        padding: 5px;
+    }
+    header nav ul li {
+        display: inline-block;
+        padding: 5px;
+    }
+    h2 {
+        font-size: 1.7rem;
+    }
+    .about h2 {
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .services article,
+    .products article {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+}
 
 
