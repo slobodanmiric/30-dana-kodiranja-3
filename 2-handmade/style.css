@@ -6,4 +6,60 @@
     --lightgray: #f3f3f3;
     --white: #fff;
     --padding: 70px 0;
+    --font: 16px;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: var(--font);
+    line-height: 1.6;
+    color: var(--gray);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+/*****************
+header
+*****************/
+header {
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    border-bottom: 20px solid rgba(0,0,0,.5);
+}
+header h1 {
+    font-size: 3rem;
+    background: var(--black);
+    display: inline-block;
+    padding: 15px 50px;
+    color: var(--white);
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+header nav {
+    background: var(--orange);
+    display: inline-block;
+    margin-left: 200px;
+    padding: 5px 30px;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 5px 30px;
+}
+header nav ul li a {
+    color: var(--white);
+}
+
+
+
+
+
