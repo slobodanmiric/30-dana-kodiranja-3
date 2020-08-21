@@ -35,6 +35,19 @@ a {
 ul {
     list-style: none;
 }
+button {
+    background: var(--yellow);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+button:hover {
+    background: var(--white);
+    cursor: pointer;
+    transition: var(--transition);
+}
 /***************
 header
 ***************/
@@ -77,4 +90,30 @@ header p {
     text-transform: uppercase;
     padding-bottom: 70px;
 }
+/***************
+services
+***************/
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+.services article {
+    width: 33%;
+    float: left;
+}
+.services h3 {
+    font-size: 2rem;
+    color: var(--white);
+}
+.services p {
+    padding: 30px;
+    color: var(--lightgray);
+}
+
+
+
+
+
+
+
 
