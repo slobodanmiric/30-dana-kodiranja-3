@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
+:root {
+    --bodyFont: 'Pontano Sans', sans-serif;
+    --transition: .3s ease;
+    --gray: #333333;
+    --darkgray: #2e2e2e;
+    --yellow: #f3cd52;
+    --lightgray: rgba(255,255,255,0.4);
+    --white: #fff;
+    --font: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--bodyFont);
+    background: var(--gray);
+    line-height: 1.7;
+    font-size: var(--font);
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+.container::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+/***************
+header
+***************/
+header {
+    background: var(--yellow);
+    text-align: center;
+}
+header img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top: 30px solid rgba(255,255,255,.5);
+    border-right: 30px solid rgba(255,255,255,.5);
+    border-left: 30px solid rgba(255,255,255,.5);
+}
+header nav {
+    padding-top: 30px;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li a {
+    color: var(--gray);
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+header nav ul li a:hover {
+    color: #7c7c7c;
+    transition: var(--transition);
+}
+header h1 {
+    padding-top: 70px;
+    font-size: 3rem;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+}
+header p {
+    text-transform: uppercase;
+    padding-bottom: 70px;
+}
+
