@@ -206,6 +206,51 @@ footer i {
 footer .copy {
     padding: 50px;
 }
+/***************
+r e s p o n s i v e
+***************/
+@media(min-width: 768px) and (max-width: 1024px) {
+    .portfolio article {
+        width: 50%;
+    }
+    .services article {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+@media(max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    header nav ul li a {
+        padding: 2px;
+        font-size: .9rem;
+        letter-spacing: 1px;
+    }
+    header h1 {
+        padding-top: 30px;
+        font-size: 2rem;
+        padding-bottom: 15px;
+    }
+    header img {
+        border-top: 15px solid rgba(255,255,255,.5);
+        border-right: 15px solid rgba(255,255,255,.5);
+        border-left: 15px solid rgba(255,255,255,.5);
+    }
+    header p {
+        padding-bottom: 30px;
+    }
+    .services article,
+    .portfolio article {
+        width: 100%;
+    }
+    .contact form {
+        width: 80%;
+    }
+    footer i {
+        margin: 10px;
+    }
+}
 
 
 
