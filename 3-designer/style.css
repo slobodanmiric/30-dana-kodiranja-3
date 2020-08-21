@@ -148,7 +148,38 @@ portfolio
     color: var(--lightgray);
     margin-bottom: 30px;
 }
-
+/***************
+contact
+***************/
+.contact {
+    text-align: center;
+    padding: 50px 0;
+}
+.contact h2 {
+    font-size: 3rem;
+    color: var(--white);
+    letter-spacing: 2px;
+}
+.contact p {
+    color: var(--lightgray);
+    padding: 20px;
+}
+.contact form {
+    width: 40%;
+    margin: auto;
+}
+.contact form input, 
+.contact form textarea {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    background: var(--darkgray);
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-family: var(--bodyFont);
+    color: var(--lightgray);
+}
 
 
 
