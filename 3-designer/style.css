@@ -180,7 +180,32 @@ contact
     font-family: var(--bodyFont);
     color: var(--lightgray);
 }
-
+/***************
+footer
+***************/
+footer {
+    text-align: center;
+}
+footer h2 {
+    font-size: 3rem;
+    color: var(--white);
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+footer p {
+    padding: 20px;
+    color: var(--lightgray);
+}
+footer i {
+    padding: 20px;
+    background: var(--yellow);
+    color: var(--gray);
+    font-size: 1.5rem;
+    margin: 20px;
+}
+footer .copy {
+    padding: 50px;
+}
 
 
 
