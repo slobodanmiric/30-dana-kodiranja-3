@@ -44,6 +44,7 @@ button {
     font-size: 1rem;
     border: none;
     text-transform: uppercase;
+    margin-top: 20px;
 }
 button:hover {
     cursor: pointer;
@@ -165,7 +166,40 @@ team
     color: var(--lightgray);
     padding-bottom: 30px;
 }
-
+/*****************
+blog
+*****************/
+.blog {
+    padding: var(--padding);
+}
+.blog h2 {
+    color: var(--blue);
+    font-size: 3rem;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.blog h2 + p {
+    color: var(--gray);
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.blog article {
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+.blog img {
+    width: 100%;
+}
+.blog h3 {
+    color: var(--blue);
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+/*****************
+blog
+*****************/
 
 
 
