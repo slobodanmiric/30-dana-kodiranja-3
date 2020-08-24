@@ -7,6 +7,7 @@
     --gray: #9a9a9a;
     --blue: #5385c1;
     --transition: .4s ease;
+    --padding: 100px 0;
 }
 * {
     margin: 0;
@@ -16,9 +17,13 @@
 body {
     font-family: var(--fonts);
     font-size: var(--fontSize);
+    letter-spacing: 2px;
+    color: var(--gray);
+    line-height: 2;
 }
 h1, h2, h3, h4, h5 {
     font-weight: 100;
+    letter-spacing: 2px;
 }
 .container {
     width: 80%;
@@ -30,6 +35,19 @@ h1, h2, h3, h4, h5 {
     clear: both;
 }
 a:hover {
+    transition: var(--transition);
+}
+button {
+    background:var(--blue);
+    padding: 15px 30px;
+    color: var(--white);
+    font-size: 1rem;
+    border: none;
+    text-transform: uppercase;
+}
+button:hover {
+    cursor: pointer;
+    background: var(--gray);
     transition: var(--transition);
 }
 /*****************
@@ -82,11 +100,30 @@ hgroup h1 {
 }
 hgroup h5 {
     color: var(--lightgray);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
-
-
-
+/*****************
+intro
+*****************/
+.intro {
+    padding: var(--padding);
+}
+.intro article {
+    width: 33%;
+    float: left;
+    padding: 50px;
+    border-right: 1px solid var(--gray);
+}
+.intro article:last-child {
+    border: none;
+}
+.intro h2 {
+    color: var(--blue);
+    padding-bottom: 30px;
+}
+.intro p {
+    padding-bottom: 30px;
+}
 
 
 
