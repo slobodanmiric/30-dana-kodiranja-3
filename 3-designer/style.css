@@ -252,5 +252,23 @@ r e s p o n s i v e
     }
 }
 
+.position {
+    background: red;
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+}
+h2 {
+    bottom: 30px;
+    right: 30px;
+    background: white;
+    font-size: 5rem;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
 
 

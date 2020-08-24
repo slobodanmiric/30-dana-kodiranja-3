@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+:root {
+    --fonts: 'Raleway', sans-serif;
+    --fontSize: 16px;
+    --white: #fff;
+    --lightgray: lightgray;
+    --gray: #9a9a9a;
+    --blue: #5385c1;
+    --transition: .4s ease;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--fonts);
+    font-size: var(--fontSize);
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 100;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.container::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+a:hover {
+    transition: var(--transition);
+}
+/*****************
+header
+*****************/
+header {
+    border-top: 7px solid var(--blue);
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo {
+    float: left;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.logo:hover {
+    color: var(--blue);
+}
+nav {
+    padding-top: 40px;
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    padding-left: 70px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+nav ul li a:hover {
+    color: var(--blue);
+}
+hgroup {
+    text-align: center;
+    padding: 150px 0 230px 0;
+}
+hgroup h1 {
+    font-size: 5rem;
+    color: var(--white);
+    padding-bottom: 30px;
+}
+hgroup h5 {
+    color: var(--lightgray);
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
