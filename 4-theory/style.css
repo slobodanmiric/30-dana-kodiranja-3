@@ -124,6 +124,53 @@ intro
 .intro p {
     padding-bottom: 30px;
 }
+/*****************
+team
+*****************/
+.team {
+    padding: var(--padding);
+    text-align: center;
+    background: var(--blue);
+}
+.team article {
+    width: 25%;
+    float: left;
+}
+.team .wrapper {
+    border: 1px solid var(--lightgray);
+    margin: 20px;
+    padding-top: 30px;
+}
+.team img {
+    width: 60%;
+    border-radius: 50%;
+}
+.team h2 {
+    color: var(--white);
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.team h2 + p {
+    color: var(--lightgray);
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+}
+.team h4 {
+    color: var(--white);
+    font-size: 1.4rem;
+    padding: 15px 0;
+}
+.team article p {
+    font-size: 1.2rem;
+    color: var(--lightgray);
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
 
 
 
