@@ -27,6 +27,17 @@ h1,h2,h3,h4,h5,h6 {
 a {
     transition: .4s ease;
 }
+button {
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+button:hover {
+    cursor: pointer;
+    transition: .3s ease;
+}
 /***************
 nav
 ***************/
@@ -52,5 +63,46 @@ nav i {
     position: relative;
     top: 5px;
 }
+/***************
+header
+***************/
+header {
+    background-image: linear-gradient(rgba(110, 37, 148,.9), rgba(110, 37, 148,.9)), url(img/header.jpg);
+    padding: 200px;
+    background-position: center;
+    background-size: cover;
+    color: var(--white);
+    text-align: center;
+}
+header h1 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+header h1::after {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 80px;
+    background: var(--yellow);
+    margin: 30px auto 40px auto;
+}
+header h4 {
+    font-size: 1.4rem;
+}
+header button {
+    background: var(--white);
+    color: var(--purple);
+}
+header button:hover {
+    background: var(--yellow);
+}
+
+
+
+
+
+
+
+
 
 
