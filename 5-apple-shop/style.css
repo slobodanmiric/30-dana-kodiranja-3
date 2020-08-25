@@ -212,3 +212,108 @@ cta
     background: var(--text);
     color: var(--white);
 }
+/***************
+footer
+***************/
+footer {
+    background: var(--text);
+    padding: 60px;
+    color: var(--white);
+}
+footer::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+footer h3 {
+    font-size: 1.5rem;
+}
+footer h3::after {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 80px;
+    background: var(--yellow);
+    margin: 20px 0;
+}
+footer article:first-child {
+    width: 60%;
+    float: left;
+}
+footer article:last-child {
+    width: 40%;
+    float: right;
+}
+footer button {
+    background: transparent;
+    color: var(--yellow);
+    border: 2px solid var(--yellow);
+}
+footer button:hover {
+    background: var(--yellow);
+    color: var(--text);
+}
+footer ul {
+    list-style: none;
+    line-height: 2;
+}
+footer a {
+    text-decoration: none;
+    color: var(--white);
+}
+/***************
+responsive
+***************/
+@media(min-width: 768px) and (max-width: 1024px) {
+    .products .row1 article:nth-child(2) {
+        padding: 20%;
+    }
+    .products .row2 article:nth-child(1) {
+        padding: 20%;
+    }
+    .products .row3 article:nth-child(2) {
+        padding: 20%;
+    }
+}
+@media(max-width: 768px) {
+    nav ul li a {
+        margin: 5px;
+    }
+    header h1 {
+        font-size: 3rem;
+    }
+    header {
+        padding: 50px;
+    }
+    header h4 {
+        font-size: 1rem;
+    }
+    .about article {
+        width: 100%;
+        padding: 40px;
+    }
+    .products .row1 article:nth-child(1),
+    .products .row2 article:nth-child(2),
+    .products .row3 article:nth-child(1) {
+        display: none;
+    }
+    .products .row1 article:nth-child(2),
+    .products .row2 article:nth-child(1),
+    .products .row3 article:nth-child(2){
+        width: 100%;
+    }
+    .cta {
+        padding: 40px;
+    }
+    footer article:first-child {
+        width: 100%;
+        margin-bottom: 40px
+    }
+    footer article:last-child {
+        width: 100%;
+    }
+}
+
+
+
+
