@@ -24,3 +24,33 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Poppins', sans-serif;
 }
+a {
+    transition: .4s ease;
+}
+/***************
+nav
+***************/
+nav {
+    text-align: center;
+    background: linear-gradient(to right, var(--purple), var(--yellow));
+    height: 55px;
+    line-height: 55px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    margin: 30px;
+    color: var(--white);
+}
+nav ul li a:hover {
+    color: var(--purple);
+}
+nav i {
+    font-size: 2rem;;
+    position: relative;
+    top: 5px;
+}
+
+
