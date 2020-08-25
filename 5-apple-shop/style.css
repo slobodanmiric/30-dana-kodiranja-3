@@ -185,4 +185,30 @@ products
     height: 50vh;
     padding: 7%;
 }
-
+/***************
+cta
+***************/
+.cta {
+    padding: 80px;
+    background: var(--yellow);
+    text-align: center;
+}
+.cta h2 {
+    font-size: 3rem;
+}
+.cta h2::after {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 80px;
+    background: var(--text);
+    margin: 30px auto 40px auto;
+}
+.cta button {
+    background: var(--purple);
+    color: var(--white);
+}
+.cta button:hover {
+    background: var(--text);
+    color: var(--white);
+}
