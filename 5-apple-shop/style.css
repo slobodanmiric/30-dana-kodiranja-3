@@ -124,9 +124,65 @@ about
     background: var(--yellow);
     color: var(--text);
 }
-
-
-
-
-
+/***************
+products
+***************/
+.products .clearfix {
+    border-bottom: 1px solid lightgray;
+    clear: both;
+}
+.products h3 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+.products h3::after {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 80px;
+    background: var(--text);
+    margin: 20px 0;
+}
+.products .row1 article:nth-child(1) {
+    background-image: url(img/mac.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    float: left;
+    height: 50vh;
+}
+.products .row1 article:nth-child(2) {
+    width: 60%;
+    float: left;
+    height: 50vh;
+    padding: 7%;
+}
+.products .row2 article:nth-child(1) {
+    width: 60%;
+    float: left;
+    height: 50vh;
+    padding: 7%;
+}
+.products .row2 article:nth-child(2) {
+    background-image: url(img/ipad.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    float: right;
+    height: 50vh;
+}
+.products .row3 article:nth-child(1) {
+    background-image: url(img/iphone.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    float: left;
+    height: 50vh;
+}
+.products .row3 article:nth-child(2) {
+    width: 60%;
+    float: right;
+    height: 50vh;
+    padding: 7%;
+}
 
