@@ -136,13 +136,43 @@ about
     padding-right: 50px;
     text-align: justify;
 }
-
-
-
-
-
-
-
+/********************
+services
+********************/
+.services {
+    padding: var(--padding);
+    background-image: linear-gradient(rgba(29, 82, 124,.9),rgba(29, 82, 124,.9)), url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--bela);
+}
+.services h2 {
+    color: var(--bela);
+}
+.services h2::after {
+    background: var(--orange);
+}
+.services .container {
+    display: flex;
+}
+.services article {
+    flex: 1;
+}
+.services article:first-child {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.services article:first-child i {
+    font-size: 5rem;
+    color: var(--orange);
+    flex: 1 1 50%;
+}
+.services p {
+    padding: 30px 0;
+}
 
 
 
