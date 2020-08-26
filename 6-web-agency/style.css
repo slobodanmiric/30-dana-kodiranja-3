@@ -23,3 +23,36 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    transition: var(--transition);
+}
+/********************
+nav
+********************/
+nav {
+    background: linear-gradient(to right, var(--orange), var(--tamnoPlava));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+nav ul  {
+    display: flex;
+}
+nav a {
+    color: var(--bela);
+    text-transform: uppercase;
+    padding: 0 30px;
+}
+nav a:hover {
+    color: var(--svetloSiva);
+}
+
+
+
