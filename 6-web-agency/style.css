@@ -208,7 +208,29 @@ blog
     font-size: 1.7rem;
     padding: 20px 0;
 }
-
+/********************
+footer
+********************/
+footer {
+    background-image: linear-gradient(to left, rgba(29, 82, 124,.8), rgba(253, 127, 69,.8)), url(img/baloon.jpg);
+    color: var(--bela);
+    padding: var(--padding);
+    text-align: center;
+}
+footer a {
+    color: var(--tamnoPlava);
+    font-size: 2rem;
+    margin: 10px;
+}
+footer a:hover {
+    color: var(--svetloPlava);
+}
+footer p {
+    padding-top: 30px;
+}
+/********************
+responsive
+********************/
 
 
 
