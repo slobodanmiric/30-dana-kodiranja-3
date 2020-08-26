@@ -173,13 +173,41 @@ services
 .services p {
     padding: 30px 0;
 }
-
-
-
-
-
-
-
+/********************
+blog
+********************/
+.blog {
+    padding: var(--padding);
+    text-align: center;
+}
+.blog img {
+    width: 100%;
+}
+.blog .row {
+    display: flex;
+    justify-content: space-between;
+}
+.blog article {
+    flex: 0 0 31%;
+}
+.blog .headings::after {
+    margin: 10px auto 30px auto;
+    background: var(--orange);
+}
+.blog button {
+    background: var(--tamnoPlava);
+}
+.blog button:hover {
+    background: var(--orange);
+}
+.blog p {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.blog h3 {
+    font-size: 1.7rem;
+    padding: 20px 0;
+}
 
 
 
