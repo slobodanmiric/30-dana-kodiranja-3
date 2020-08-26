@@ -47,6 +47,23 @@ button:hover {
     color: var(--tamnoSiva);
     transition: var(--transition);
 }
+.container {
+    width: 80%;
+    margin: auto;
+}
+.headings {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--tamnoPlava);
+}
+.headings::after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 100px;
+    background: var(--tamnoPlava);
+    margin: 10px 0 20px 0;
+}
 /********************
 nav
 ********************/
@@ -96,6 +113,38 @@ header p {
     font-size: 1.2rem;
     padding: 30px;
 }
+/********************
+about
+********************/
+.about {
+    padding: var(--padding);
+    display: flex;
+}
+.about img {
+    width: 100%;
+    box-shadow: 10px 10px var(--tamnoPlava);
+}
+.about article {
+    flex: 1;
+}
+.about article:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about p {
+    padding-right: 50px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
 
 
 
