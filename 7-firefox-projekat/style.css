@@ -150,6 +150,7 @@ one
 ********************/
 .one {
     display: flex;
+    flex-wrap: wrap;
 }
 .one article:first-child {
     flex: 1;
@@ -224,5 +225,141 @@ three
 .three article:last-child {
     margin: auto;
 }
+/********************
+four
+********************/
+.four {
+    background-image: url(img/newsletter.png);
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.four .row {
+    width: 70%;
+    margin: auto;
+    background: var(--bela);
+    border-radius: 5px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.four .row article:first-child {
+    flex: 10;
+}
+.four .row article:first-child img {
+    width: 10%;
+    float: left;
+    margin-right: 40px;
+}
+.four .row article:first-child h3 {
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.four .row article:first-child p {
+    font-weight: 300;
+}
+.four .row article:last-child {
+    flex: 2;
+}
+.four form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.four form input {
+    flex: 0 0 100%;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+.four input[type="email"] {
+    margin-bottom: 20px;
+}
+.four input[type="submit"] {
+    border: 2px solid var(--plava);
+    background: var(--plava);
+    color: var(--bela);
+}
+.four input[type="submit"]:hover {
+    background: var(--buttonHover);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+/********************
+responsive
+********************/
+@media(max-width:768px) {
+    .container {
+        width: 90%;
+    }
+    .py {
+        padding: 50px 0;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li a {
+        margin: 10px;
+    }
+    nav ul {
+        padding-left: 0px;
+    }
+    header img:first-child {
+        width: 80%;
+        padding-top: 60px;
+    }
+    header h2 {
+        font-size: 2rem;
+    }
+    header p {
+        font-size: 1rem;
+        padding: 20px;
+    }
+    header .learnMore {
+        margin-top: 20px;
+        padding-bottom: 60px;
+    }
+    header img:last-child {
+        width: 150%;
+        height: auto;
+        position: relative;
+        left: -150px
+    }
+    header {
+        background-size: 200%;
+    }
+    .one article:first-child {
+        flex: 0 0 100%;
+    }
+    .one article:last-child {
+        flex: 0 0 100%;
+        display: none;
+    }
+    .two article {
+        flex: 0 0 100%;
+        padding-bottom: 50px;
+    }
+    .three article {
+        flex: 0 0 100%;
+        padding-bottom: 80px;
+    }
+    .four .row {
+        width: 90%;
+    }
+    .four .row article:first-child img {
+        display: none;
+    }
+    .four .row article:first-child {
+        flex: 0 0 100%;
+    }
+    .four .row article:last-child {
+        flex: 0 0 100%;
+        margin-top: 40px;
+    }
+}
+
+
+
 
 
