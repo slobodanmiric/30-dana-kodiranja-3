@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:300,400,600,700,900&display=swap');
+
+:root {
+    --fontPrimary:'Inter', sans-serif;
+    --fontColor: #20123a;
+    --plava: #0060df;
+    --buttonHover: #0250bb;
+    --tamnoPlava: #08204e;
+    --bela: #fff;
+    --transition: .4s ease;
+}
+
+/********************
+BASIC STYLES
+********************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fontPrimary);
+    font-size: 16px;
+    color: var(--fontColor);
+    margin-top: 30px;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+.py {
+    padding: 100px 0;
+}
+/********************
+nav
+********************/
+nav {
+    display: flex;
+}
+nav img {
+    width: 30px;
+}
+nav .logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+nav .logo a {
+    text-decoration: none;
+    color: var(--fontColor);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-left: 7px;
+}
+nav ul {
+    flex: 9;
+    align-items: center;
+    padding-left: 40px;
+    display: flex;
+}
+nav ul li a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: var(--fontColor);
+    font-weight: 600;
+}
+nav ul li a:hover {
+    transition: var(--transition);
+    color: #e02960;
+}
+nav input[type="submit"] {
+    flex: 2;
+    border: 2px solid var(--plava);
+    background: transparent;
+    color: var(--plava);
+    font-size: 1.1rem;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+nav input[type="submit"]:hover {
+    background: var(--plava);
+    color: var(--bela);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
