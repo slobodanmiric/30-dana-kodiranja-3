@@ -176,7 +176,37 @@ one
     padding: 10px 0;
     line-height: 1.6;
 }
-
-
-
+/********************
+two
+********************/
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.two img {
+    width: 100%;
+}
+.two article {
+    flex: 0 0 46%;
+    padding-bottom: 100px;
+}
+.two h4 {
+    padding: 40px 0 10px 0;
+}
+.two h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.two p {
+    line-height: 1.6;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.two a {
+    color: var(--plava);
+    font-weight: 600;
+    font-size: .9rem;
+}
 
