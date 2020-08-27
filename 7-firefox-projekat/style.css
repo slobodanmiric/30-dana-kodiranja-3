@@ -209,4 +209,20 @@ two
     font-weight: 600;
     font-size: .9rem;
 }
+/********************
+three
+********************/
+.three .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.three article {
+    flex: 0 0 30%;
+    padding-bottom: 80px;
+}
+.three article:last-child {
+    margin: auto;
+}
+
 
