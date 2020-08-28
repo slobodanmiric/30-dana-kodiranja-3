@@ -28,6 +28,19 @@ h1, h2, h3, h4, h5, h6 {
 ul {
     list-style: none;
 }
+button {
+    background: transparent;
+    border: 1px solid var(--black);
+    padding: 15px 40px;
+    font-size: 1rem;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+button:hover {
+    cursor: pointer;
+    transition: var(--transition);
+    background: var(--pink);
+}
 /**********************
 header
 **********************/
@@ -82,9 +95,45 @@ header hgroup p {
     font-style: italic;
     font-size: 1.2rem;
 }
-
-
-
+/**********************
+about
+**********************/
+.about {
+    display: flex;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about article:first-child {
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.about article:last-child {
+    flex: 0 0 37%;
+}
+.about img {
+    width: 100%;
+    box-shadow: 0 0 40px var(--gray);
+    border-radius: 30px;
+}
+.about article:first-child h2 {
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+.about article:first-child h4 {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+.about article:first-child hr {
+    height: 2px;
+    background: var(--pink);
+    width: 20%;
+    border: none;
+    margin-bottom: 30px;
+}
 
 
 
