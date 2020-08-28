@@ -151,6 +151,64 @@ counter
     margin: 20px auto;
     width: 50%;
 }
+/**********************
+team
+**********************/
+.team {
+    padding: 50px 0;
+}
+.team .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.team .clean {
+    flex: 5;
+}
+.team .full {
+    flex: 7;
+    display: flex;
+}
+.team .full img {
+    width: 100%;
+}
+.team .left .full .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    padding-right: 20px;
+}
+.team .left .full .text hr {
+    height: 2px;
+    background: var(--pink);
+    border: none;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    right: -300px;
+}
+.team .right .full .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+.team .right .full .text hr {
+    height: 2px;
+    background: var(--pink);
+    border: none;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: -110px;
+}
+
+
+
+
+
 
 
 
