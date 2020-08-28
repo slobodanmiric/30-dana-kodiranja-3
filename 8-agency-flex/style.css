@@ -349,8 +349,21 @@ input, textarea {
 form button {
     width: 300px;
 }
-
-
+/**********************
+footer
+**********************/
+footer {
+    background: var(--lightgray);
+    padding: 50px 0;
+    text-align: center;
+}
+footer h2 a {
+    color: var(--pink);
+    text-decoration: none;
+}
+footer h4 {
+    padding: 10px 0;
+}
 
 
 
