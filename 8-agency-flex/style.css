@@ -249,6 +249,82 @@ galleryHgroup
     margin: 20px 0;
     border: none;
 }
+/**********************
+gallery
+**********************/
+.galleryBg {
+    padding: 50px 0;
+    background: var(--lightgray);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery article {
+    height: 300px;
+    flex: 0 0 23%;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.gallery h4 {
+    background: rgba(242, 15, 151,.7);
+    display: inline-block;
+    color: var(--white);
+    padding: 10px;
+}
+.gallery .col1 {
+    background-image: url(img/works1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery .col2 {
+    background-image: url(img/works2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery .col3 {
+    background-image: url(img/works3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery .col4 {
+    background-image: url(img/works4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery .col5 {
+    background-image: url(img/works5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery .col6 {
+    background-image: url(img/works6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery .col7 {
+    background-image: url(img/works7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery .col8 {
+    background-image: url(img/works8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
