@@ -21,3 +21,76 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
+.container {
+    width: 90%;
+    margin: auto;
+}
+ul {
+    list-style: none;
+}
+/**********************
+header
+**********************/
+header {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+.logo {
+    color: var(--white);
+    font-size: 2rem;
+    text-decoration: none;
+}
+.logo span {
+    font-style: italic;
+    font-weight: 700;
+}
+nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    margin-left: 70px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header hgroup {
+    display: flex;
+    color: var(--white);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+header hgroup h4 {
+    font-size: 1.2rem;
+}
+header hgroup h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 20px 0;
+}
+header hgroup p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
