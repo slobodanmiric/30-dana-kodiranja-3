@@ -49,6 +49,7 @@ header {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    text-align: center
 }
 nav {
     display: flex;
@@ -211,6 +212,7 @@ services
     padding: 50px 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .services img {
     width: 100%;
@@ -321,6 +323,7 @@ contact
     display: flex;
     padding: 50px 0;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .contact article:first-child {
     flex: 0 0 60%;
@@ -364,6 +367,108 @@ footer h2 a {
 footer h4 {
     padding: 10px 0;
 }
+/**********************
+bottom bar
+**********************/
+.bottomBar {
+    padding: 50px 0;
+    background: lightgray;
+}
+.bottomBar .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bottomBar .container article {
+    flex: 0 0 30%;
+}
+.bottomBar ul {
+    display: flex;
+}
+.bottomBar ul li a {
+    margin-right: 50px;
+    font-size: 1.3rem;
+}
+.bottomBar i {
+    color: var(--pink);
+}
+.bottomBar i:hover {
+    color: var(--black);
+    transition: var(--transition);
+}
+/**********************
+responsive
+**********************/
+@media(max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav ul {
+        justify-content: center;
+    }
+    nav ul li a {
+        margin: 5px;
+        letter-spacing: 0px;
+        font-size: .8rem;
+    }
+    header hgroup h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        padding: 20px 0;
+    }
+    .about article:first-child,
+    .about article:last-child{
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+    .about article:first-child h2 {
+        font-size: 2rem;
+    }
+    .team .clean {
+        display: none;
+    }
+    .team .full {
+        flex: 0 0 100%;
+        margin-bottom: 30px
+    }
+    .team .left .full .text hr {
+        right: -110px;
+    }
+    .team .right .full .text hr {
+        left: -50px;
+    }
+    .services article,
+    .gallery article{
+        flex: 0 0 100%;
+    }
+    .services img {
+        margin: 30px 0;
+    }
+    .contact article:first-child, 
+    .contact article:last-child {
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+    .bottomBar .container article {
+        flex: 0 0 100%;
+    }
+    input, textarea {
+        width: 100%;
+    }
+    .bottomBar {
+        text-align: center;
+    }
+    .bottomBar ul li a {
+        margin: 10px;
+    }
+    .bottomBar ul {
+        justify-content: center;
+    }
+}
+
+
+
 
 
 
