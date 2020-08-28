@@ -204,8 +204,31 @@ team
     position: relative;
     left: -110px;
 }
-
-
+/**********************
+services
+**********************/
+.services {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.services img {
+    width: 100%;
+    box-shadow: 0 0 40px var(--gray);
+    border-radius: 30px;
+}
+.services article {
+    flex: 0 0 30%;
+}
+.services article:nth-child(odd) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.services h4 {
+    color: var(--pink);
+    font-size: 1.5rem;
+}
 
 
 
