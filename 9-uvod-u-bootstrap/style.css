@@ -3,3 +3,10 @@
     --yellow: #fadb61;
     --gray: #f8f8f8;
 }
+/* nav.bg-light */
+.navbar {
+    background: var(--violet) !important;
+}
+.carousel-caption {
+    bottom: 30%;
+}
