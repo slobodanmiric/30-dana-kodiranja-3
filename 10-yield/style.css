@@ -90,8 +90,16 @@ about
 .about h5, .about h3 {
     color: var(--pink);
 }
-
-
+/*************
+watermelon
+*************/
+.watermelon {
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(img/watermellon.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    background-attachment: fixed;
+}
 
 
 
