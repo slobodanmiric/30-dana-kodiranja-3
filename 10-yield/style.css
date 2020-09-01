@@ -84,6 +84,13 @@ slider
 .carousel-caption p {
     color: var(--text);
 }
+/*************
+about
+*************/
+.about h5, .about h3 {
+    color: var(--pink);
+}
+
 
 
 
