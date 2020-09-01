@@ -24,6 +24,9 @@ h1, h2, h3, h4, h5, h6 {
     background: var(--pink);
     color: white;
 }
+.py-5 {
+    padding: 100px 0 !important;
+}
 /*************
 nav
 *************/
@@ -99,6 +102,34 @@ watermelon
     background-size: cover;
     height: 60vh;
     background-attachment: fixed;
+}
+/*************
+team
+*************/
+.team h2 {
+    color: var(--pink);
+    font-size: 3rem;
+}
+.team h4 {
+    color: white;
+    background: var(--pink);
+    padding: 5px;
+}
+.team img {
+    box-shadow: 0 0 20px #676767;
+}
+/*************
+footer
+*************/
+footer {
+    background: var(--pink);
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: var(--text);
+    transition: var(--transition);
 }
 
 
