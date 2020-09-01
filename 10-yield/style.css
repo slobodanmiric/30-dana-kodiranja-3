@@ -131,7 +131,39 @@ footer a:hover {
     color: var(--text);
     transition: var(--transition);
 }
-
+/*************
+blog
+*************/
+.blog h1 {
+    color: var(--pink);
+}
+.blog .lead {
+    font-size: 1.5rem;
+    color: var(--pink);
+}
+.blog .jumbotron {
+    background: white !important;
+}
+/*************
+postovi
+*************/
+.jagoda {
+    background-image: url(img/jagoda.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+.limun {
+    background-image: url(img/limun.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+@media(max-width: 768px) {
+    .navigacija .col-md-4:last-child {
+        display: none;
+    }
+}
 
 
 
