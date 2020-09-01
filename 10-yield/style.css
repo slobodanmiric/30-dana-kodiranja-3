@@ -13,6 +13,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
+.btn {
+    background: var(--orange);
+    border-radius: 0;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background: var(--pink);
+    color: white;
+}
 /*************
 nav
 *************/
@@ -55,7 +66,24 @@ nav
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: var(--pink) !important;
 }
-
+/*************
+slider
+*************/
+.carousel-caption {
+    bottom: 32%;
+}
+.carousel-caption h5 {
+    color: var(--pink);
+    font-size: 2rem;
+}
+.carousel-caption .lead {
+    color: var(--orange);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.carousel-caption p {
+    color: var(--text);
+}
 
 
 
