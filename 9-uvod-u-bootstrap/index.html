@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>Uvod u bootstrap</title>
-
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Uvod u bootstrap</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,6 +42,7 @@
         </div>
     </nav>
 
+    <!-- slider -->
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -74,6 +76,167 @@
         </a>
     </div>
 
+    <!-- about -->
+    <section class="about py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="display-4 pb-4">About us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ullam, quidem quaerat. Omnis possimus voluptatem vel quaerat tempore iure quisquam repudiandae, nostrum. Dolore corrupti laborum aliquam, odio molestiae fugiat nihil repudiandae, et obcaecati quas numquam voluptatibus, sapiente esse atque optio, veritatis praesentium. Quia vel, itaque.</p>
+                </div>
+            </div>
+            <div class="row mt-5 align-items-center">
+                <div class="col-md-6">
+                    <img class="img-fluid shadow-lg" src="img/about-us.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, vel.</h3>
+                    <p class="lead font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ipsam quasi amet neque, maxime tempore tenetur tempora error quod earum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequatur fugiat molestiae doloribus suscipit error voluptas quia quasi officiis cumque, recusandae in architecto? Sint ratione quo, accusamus sapiente numquam aliquam ullam incidunt tenetur, vitae officiis doloribus saepe rem quibusdam delectus beatae aliquid, porro fugit animi maiores voluptates veniam. Suscipit, eius.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- works -->
+    <section class="works py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="display-4 pb-4">Works</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ullam, quidem quaerat. Omnis possimus voluptatem vel quaerat tempore iure quisquam repudiandae, nostrum. Dolore corrupti laborum aliquam, odio molestiae fugiat nihil repudiandae, et obcaecati quas numquam voluptatibus, sapiente esse atque optio, veritatis praesentium. </p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3 col-sm-6">
+                    <img class="img-fluid" src="img/works1.jpg" alt="">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="img-fluid" src="img/works2.jpg" alt="">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="img-fluid" src="img/works3.jpg" alt="">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="img-fluid" src="img/works4.jpg" alt="">
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <img class="img-fluid" src="img/works5.jpg" alt="">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="img-fluid" src="img/works6.jpg" alt="">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="img-fluid" src="img/works7.jpg" alt="">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="img-fluid" src="img/works8.jpg" alt="">
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <img class="img-fluid" src="img/works9.jpg" alt="">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="img-fluid" src="img/works10.jpg" alt="">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="img-fluid" src="img/works11.jpg" alt="">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="img-fluid" src="img/works12.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cta -->
+    <div class="jumbotron d-flex justify-content-center align-items-center">
+        <h2 class="display-4 text-light text-center">Call to action</h2>
+    </div>
+    
+    <!-- team -->
+    <section class="team py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="display-4 pb-4">Team</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ullam, quidem quaerat. Omnis possimus voluptatem vel quaerat tempore iure quisquam repudiandae, nostrum. Dolore corrupti laborum aliquam, odio molestiae fugiat nihil repudiandae, et obcaecati quas numquam voluptatibus, sapiente esse atque optio, veritatis praesentium. </p>
+                </div>
+            </div>
+            <div class="row mt-5 text-center">
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/team1.jpg" alt="" class="img-fluid">
+                    <h4 class="mt-3">Slobodan Cavar</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ea earum, delectus! Fugit, eaque, deleniti.</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/team2.jpg" alt="" class="img-fluid">
+                    <h4 class="mt-3">Slobodan Cavar</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ea earum, delectus! Fugit, eaque, deleniti.</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/team3.jpg" alt="" class="img-fluid">
+                    <h4 class="mt-3">Slobodan Cavar</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ea earum, delectus! Fugit, eaque, deleniti.</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/team4.jpg" alt="" class="img-fluid">
+                    <h4 class="mt-3">Slobodan Cavar</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ea earum, delectus! Fugit, eaque, deleniti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- contact -->
+    <section class="contact py-5 text-center bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fas fa-map-marker-alt"></i> 
+                    <h4>Main office</h4>
+                    <p>Green street 3 <br>Novi Sad</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-phone"></i> 
+                    <h4>Phones</h4>
+                    <p>062 123 456 <br>021 456 789</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-envelope"></i> 
+                    <h4>Email</h4>
+                    <p>info@bootstrap.com <br>office@bootstrap.com</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h3 class="mb-5">We're on social networks</h3>
+                    <ul class="list-unstyled d-flex justify-content-between">
+                        <li><a href=""><i class="fab fa-facebook"></i> </a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i> </a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i> </a></li>
+                        <li><a href=""><i class="fab fa-wordpress"></i> </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy;&nbsp;Bootstrap uvod</p>
+                    <p>Design by Webcon</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -81,8 +244,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script>
         $('.carousel').carousel({
-          interval: 133000
+            interval: 6000
         })
+
     </script>
 </body>
 
