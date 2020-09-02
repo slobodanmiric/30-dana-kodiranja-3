@@ -54,6 +54,27 @@ slider
     display: inline-block;
     padding: 10px;
 }
+/*****************
+welcome
+*****************/
+.welcome h2 {
+    font-size: 3rem;
+}
+.welcome h2 span {
+    color: var(--green);
+    font-style: italic;
+    font-weight: bold;
+}
+.welcome a {
+    color: var(--green);
+}
+.welcome h3 {
+    color: var(--green);
+}
+.welcome .col-md-4:last-child span {
+    font-weight: bold;
+}
+
 
 
 
