@@ -1,0 +1,12 @@
+:root {
+    --green: #8bc34a;
+}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
