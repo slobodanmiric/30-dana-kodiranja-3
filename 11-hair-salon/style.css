@@ -86,7 +86,14 @@ featuredServices
     font-size: 2rem;
     margin-bottom: 20px;
 }
-
+/*****************
+newHairstyle
+*****************/
+.newHairstyle .col-md-5 {
+    background: white;
+    height: 50vh;
+    margin-left: -80px;
+}
 
 
 
