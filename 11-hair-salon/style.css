@@ -14,6 +14,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
 }
+.btn-dark {
+    background: black;
+    padding: 15px 40px;
+    border-radius: 0;
+}
+.btn-dark:hover {
+    background: var(--green);
+}
 /*****************
 nav
 *****************/
@@ -35,6 +43,24 @@ nav
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: var(--green) !important;
 }
+/*****************
+slider
+*****************/
+.carousel-caption {
+    bottom: 35%;
+}
+.carousel-caption p {
+    background: var(--green);
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+
+
+
+
 
 
 
