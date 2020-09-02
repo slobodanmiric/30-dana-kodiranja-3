@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
 .btn-dark:hover {
     background: var(--green);
 }
+.underline {
+    border: 1px solid var(--green);
+    width: 20%;
+}
 /*****************
 nav
 *****************/
@@ -74,9 +78,14 @@ welcome
 .welcome .col-md-4:last-child span {
     font-weight: bold;
 }
-
-
-
+/*****************
+featuredServices
+*****************/
+.featuredServices i {
+    color: var(--green);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 
 
 
