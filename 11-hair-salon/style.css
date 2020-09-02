@@ -105,7 +105,77 @@ experience
     margin-bottom: 0;
     height: 70vh;
 }
-
+/*****************
+footer
+*****************/
+footer {
+    color: gray;
+}
+footer a {
+    color: gray;
+}
+footer a:hover {
+    color: var(--green);
+}
+footer .col-md-2 .pb {
+    margin-top: 35px;
+}
+footer button {
+    position: relative;
+    top: -2px;
+    left: -5px;
+    border-radius: 0 !important;
+    background: var(--green) !important;
+    color: black !important;
+    border: none;
+}
+footer button:hover {
+    background: black !important;
+    color: white !important;
+    border: 1px solid black !important;
+}
+footer i {
+    font-size: 1.4rem;
+    color: var(--green);
+}
+footer i:hover {
+    color: black;
+    transition: var(--transition);
+}
+/*****************
+responsive
+*****************/
+@media(max-width: 768px) {
+    .welcome h2 {
+        font-size: 2rem;
+    }
+    .welcome img {
+        margin: 30px 0;
+    }
+    .display-3 {
+        font-size: 2rem ;
+    }
+    .featuredServices .col-md-4 {
+        margin-bottom: 30px;
+    }
+    .newHairstyle .col-md-5 {
+        background: white;
+        margin-left: 0px;
+    }
+    .display-4 {
+        font-size: 2rem;
+    }
+    nav {
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        background: white;
+    }
+    #carouselExampleCaptions {
+        margin-top: 73px;
+    }
+}
 
 
 
