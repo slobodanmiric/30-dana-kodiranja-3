@@ -105,10 +105,31 @@ skills
     font-size: 10rem;
     text-shadow: 0 0 25px var(--black);
 }
-
-
-
-
-
+/*************************
+footer
+*************************/
+footer {
+    background: var(--cream);
+}
+footer .underline {
+    width: 3%;
+}
+footer a {
+    color: var(--violet);
+    font-size: 2rem;
+    margin: 10px;
+}
+footer a:hover {
+    color: var(--gray);
+    transition-duration: .7s ease;
+}
+footer i:hover {
+    animation: footer .7s ease;
+}
+@keyframes footer {
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 
