@@ -51,6 +51,9 @@ nav
     color: var(--cream);
     background: var(--violet);
 }
+.nav-item {
+    text-transform: uppercase;
+}
 /*************************
 header
 *************************/
@@ -167,6 +170,31 @@ contact
     font-size: 3rem;
     color: var(--violet);
     padding-bottom: 30px;
+}
+/*************************
+responsive
+*************************/
+@media(max-width: 768px) {
+    .headerHome h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .headerHome p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .skills {
+        height: 80vh;
+    }
+    .jumbotron {
+        height: 70vh;
+    }
+    footer .underline {
+        width: 10%;
+    }
+    .contact .col-md-4 {
+        margin-bottom: 30px;
+    }
 }
 
 
