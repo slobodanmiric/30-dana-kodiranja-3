@@ -45,9 +45,25 @@ nav
     color: var(--cream);
     background: var(--violet);
 }
-
-
-
+/*************************
+header
+*************************/
+.headerHome {
+    background-image: linear-gradient(rgb(107, 78, 113,.8), rgba(255,255,255,.9)), url(img/header-background.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.headerHome h1 {
+    font-size: 4rem;
+}
+.headerHome h1 span {
+    font-style: italic;
+    color: var(--white);
+}
+.headerHome p {
+    font-size: 1.3rem;
+}
 
 
 
