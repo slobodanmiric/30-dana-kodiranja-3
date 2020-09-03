@@ -80,6 +80,35 @@ services
     transform: rotate(20deg);
     transition: .6s ease;
 }
+/*************************
+skills
+*************************/
+.skills {
+    background-image: linear-gradient( to left, rgb(107, 78, 113,.95), rgba(58, 68, 84,.95)), url(img/bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+.skills h2 {
+    font-size: 3rem;
+}
+.skills h2 span {
+    color: var(--cream);
+    font-style: italic;
+    text-shadow: 0 0 5px var(--black);
+}
+.skills ul li {
+    line-height: 2;
+    font-size: 20px
+}
+.skills .fa-laptop-code {
+    font-size: 10rem;
+    text-shadow: 0 0 25px var(--black);
+}
+
+
+
+
 
 
 
