@@ -160,7 +160,14 @@ jumbotron
     background-size: cover;
     height: 100vh;
 }
-
+/*************************
+contact
+*************************/
+.contact i {
+    font-size: 3rem;
+    color: var(--violet);
+    padding-bottom: 30px;
+}
 
 
 
