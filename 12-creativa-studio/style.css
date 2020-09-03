@@ -26,6 +26,12 @@ h6 {
 .bg-light {
     background-color: rgba(234,207,210,.8) !important;
 }
+.underline {
+    background: var(--violet);
+    height: 8px;
+    margin: 20px auto;
+    width: 30%;
+}
 /*************************
 nav
 *************************/
@@ -64,7 +70,16 @@ header
 .headerHome p {
     font-size: 1.3rem;
 }
-
+/*************************
+services
+*************************/
+.services img {
+    padding: 25px
+}
+.services img:hover {
+    transform: rotate(20deg);
+    transition: .6s ease;
+}
 
 
 
