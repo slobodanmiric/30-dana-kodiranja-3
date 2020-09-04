@@ -66,6 +66,14 @@ intro
 .intro h2 span {
     background: var(--blue);
 }
+/********************
+counter
+********************/
+.counter i {
+    color: var(--blue);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 
 
 
