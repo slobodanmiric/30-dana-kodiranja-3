@@ -128,6 +128,20 @@ trip
     background-size: cover;
     background-attachment: fixed;
 }
+/********************
+destinations
+********************/
+.destinations .col-md-3 {
+    position: relative;
+}
+.destinations .stars {
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    background: var(--blue);
+    padding: 3px;
+    color: var(--white);
+}
 
 
 
