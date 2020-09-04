@@ -2,7 +2,46 @@
     --blue: #49bfff;
     --white: #fff;
     --gray: #333;
+    --fontSize: 16px;
+    --transition: .3s ease;
 }
 * {
     box-sizing: border-box;
 }
+body {
+    font-size: var(--fontSize);
+}
+a:hover {
+    transition: var(--transition);
+}
+.bg-light {
+    background: var(--blue) !important;
+}
+/********************
+nav
+********************/
+.navbar {
+    padding: 0 100px;
+}
+.navbar-brand {
+    color: var(--white) !important;
+    font-size: 2rem;
+}
+.navbar-brand:hover {
+    color: var(--gray) !important;
+}
+.nav-link {
+    color: var(--white) !important;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: var(--text) !important;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--gray) !important;
+}
+
+
+
+
+
