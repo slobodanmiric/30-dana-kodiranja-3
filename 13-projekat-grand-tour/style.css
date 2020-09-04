@@ -74,9 +74,27 @@ counter
     font-size: 2rem;
     margin-bottom: 20px;
 }
-
-
-
+/********************
+plan
+********************/
+.plan {
+    background: var(--blue);
+}
+.plan .icons {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: var(--white);
+    color: var(--blue);
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px
+}
+.plan h3 {
+    margin-bottom: 20px;
+}
 
 
 
