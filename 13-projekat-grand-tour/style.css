@@ -17,6 +17,16 @@ a:hover {
 .bg-light {
     background: var(--blue) !important;
 }
+.btn-outline-primary {
+    color: var(--white);
+    border-color: white;
+    border-radius: 0;
+}
+.btn-outline-primary:hover {
+    background: var(--white);
+    border-color: white;
+    color: var(--gray);
+}
 /********************
 nav
 ********************/
@@ -40,7 +50,13 @@ nav
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: var(--gray) !important;
 }
-
+/********************
+slider
+********************/
+.carousel-caption {
+    bottom: 33%;
+    text-align: left;
+}
 
 
 
