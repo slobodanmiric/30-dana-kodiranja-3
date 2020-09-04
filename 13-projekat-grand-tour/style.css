@@ -142,10 +142,35 @@ destinations
     padding: 3px;
     color: var(--white);
 }
-
-
-
-
+/********************
+footer
+********************/
+footer {
+    color: lightgray;
+}
+footer .socials {
+    display: flex;
+}
+footer .socials li {
+    margin-right: 10px;
+}
+footer input {
+    background: black;
+    color: lightgray;
+    padding: 5px;
+}
+footer i {
+    position: relative;
+    left: -30px;
+    color: var(--white);
+}
+/********************
+bottomBar
+********************/
+.bottomBar {
+    padding: 20px 0 10px 0;
+    background: var(--blue);
+}
 
 
 
