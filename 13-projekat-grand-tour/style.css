@@ -95,6 +95,23 @@ plan
 .plan h3 {
     margin-bottom: 20px;
 }
+/********************
+packages
+********************/
+.packages .price {
+     position: relative;
+}
+.packages .price p {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    background: var(--blue);
+    padding: 3px 6px;
+    color: var(--white);
+}
+.packages .card-body i {
+    color: var(--blue);
+}
 
 
 
