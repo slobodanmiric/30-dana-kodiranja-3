@@ -112,7 +112,22 @@ packages
 .packages .card-body i {
     color: var(--blue);
 }
-
+.packages button {
+    margin: auto;
+    margin-top: 40px;
+}
+/********************
+trip
+********************/
+.trip {
+    padding: 100px 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(img/slide-palms.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 
 
