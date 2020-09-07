@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@300;400;700&display=swap");
+/* rgb(48,54,51) */
+/* rgb(139, 232, 203)  */
+/* rgb(156, 122, 151) */
+/****************
+mixins
+****************/
+/****************
+basic styles
+****************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #303633;
+  line-height: 1.6;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headings {
+  font-size: 2.5rem;
+}
+
+.headings::after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 80px;
+  background: #9c7a97;
+  margin: 20px 0 30px 0;
+}
+
+/****************
+aside
+****************/
+aside {
+  flex: 1;
+  background-image: linear-gradient(rgba(48, 54, 51, 0.9), rgba(156, 122, 151, 0.9)), url(img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  padding-right: 60px;
+}
+@media (max-width: 768px) {
+  aside {
+    flex: 0 0 100%;
+    text-align: center;
+    align-items: center;
+    padding-right: 0px;
+    height: 90vh;
+  }
+}
+aside img {
+  width: 40%;
+  border-radius: 50%;
+  border: 5px solid #9c7a97;
+}
+aside h1 {
+  font-weight: 300;
+  padding: 30px 0;
+  color: #fff;
+}
+aside h1 span {
+  color: #8bebcd;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+aside a {
+  color: #8bebcd;
+  margin-left: 20px;
+  font-size: 2rem;
+}
+aside a:hover {
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+/****************
+main
+****************/
+.main {
+  flex: 2;
+  padding: 40px;
+  height: 100vh;
+  overflow: scroll;
+  /*** about ***/
+  /*** portfolio ***/
+  /*** footer ***/
+}
+@media (max-width: 768px) {
+  .main {
+    flex: 0 0 100%;
+    height: auto;
+  }
+}
+.main .about button {
+  background: transparent;
+  border: 2px solid #8bebcd;
+  color: #8bebcd;
+  padding: 10px 40px;
+  margin-top: 30px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.main .about button:hover {
+  border: 2px solid #9c7a97;
+  cursor: pointer;
+  color: #9c7a97;
+  transition: 0.3s ease;
+}
+.main .about::after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #f2f2f2;
+  margin: 50px 0 20px 0;
+}
+.main .portfolio .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .portfolio .row .col {
+  flex: 0 0 48%;
+  margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .main .portfolio .row .col {
+    flex: 0 0 100%;
+  }
+}
+.main .portfolio .row .col img {
+  width: 100%;
+}
+.main .portfolio .row .col img:hover {
+  opacity: 0.6;
+  transition: 0.3s ease;
+  transform: scale(1.1);
+}
+.main .portfolio .row .col h4 {
+  font-size: 2rem;
+  color: #9c7a97;
+}
+.main .portfolio button {
+  background: transparent;
+  border: 2px solid #8bebcd;
+  color: #8bebcd;
+  padding: 10px 40px;
+  margin-top: 30px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.main .portfolio button:hover {
+  border: 2px solid #9c7a97;
+  cursor: pointer;
+  color: #9c7a97;
+  transition: 0.3s ease;
+}
+.main .portfolio::after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #f2f2f2;
+  margin: 50px 0 20px 0;
+}
+.main footer {
+  padding-bottom: 40px;
+}
+.main footer .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main footer .row form {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+@media (max-width: 768px) {
+  .main footer .row form {
+    padding-right: 0px;
+  }
+}
+.main footer .row form input {
+  flex: 0 0 48%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background: #f2f2f2;
+}
+@media (max-width: 768px) {
+  .main footer .row form input {
+    flex: 0 0 100%;
+  }
+}
+.main footer .row form textarea {
+  flex: 0 0 100%;
+  padding: 10px;
+  border: none;
+  background: #f2f2f2;
+}
+.main footer .row form button {
+  background: transparent;
+  border: 2px solid #8bebcd;
+  color: #8bebcd;
+  padding: 10px 40px;
+  margin-top: 30px;
+  font-size: 1rem;
+  border-radius: 10px;
+  background: #9c7a97;
+  border: 2px solid #9c7a97;
+  color: #fff;
+}
+.main footer .row form button:hover {
+  border: 2px solid #9c7a97;
+  cursor: pointer;
+  color: #9c7a97;
+  transition: 0.3s ease;
+}
+.main footer .row form button:hover {
+  background: #8bebcd;
+  border: 2px solid #8bebcd;
+  color: #fff;
+}
+.main footer .row .contact {
+  flex: 1;
+}
+.main footer .row .contact ul {
+  list-style: none;
+  padding-left: 20px;
+  line-height: 2.5;
+}
+@media (max-width: 768px) {
+  .main footer .row .contact ul {
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+}
+.main footer .row .contact ul li {
+  font-size: 1.2rem;
+}
+.main footer .row .contact ul li i {
+  color: #9c7a97;
+}
+
+/*# sourceMappingURL=style.css.map */

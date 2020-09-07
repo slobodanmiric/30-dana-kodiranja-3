@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+$gray: #303633;  /* rgb(48,54,51) */
+$lightGray: #f2f2f2;
+$green: #8bebcd; /* rgb(139, 232, 203)  */
+$pink: #9c7a97;  /* rgb(156, 122, 151) */
+$white: #fff;
+$headings: 'Source Sans Pro', sans-serif;
+$text: 'Lato', sans-serif;
+$transition: .3s ease;
+$font: 16px;
+
+/****************
+mixins
+****************/
+@mixin btn {
+    background: transparent;
+    border: 2px solid $green;
+    color: $green;
+    padding: 10px 40px;
+    margin-top: 30px;
+    font-size: 1rem;
+    border-radius: 10px;
+    &:hover {
+        border: 2px solid $pink;
+        cursor: pointer;
+        color: $pink;
+        transition: $transition;
+    }
+}
+@mixin line {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: $lightGray;
+    margin: 50px 0 20px 0;
+}
+
+/****************
+basic styles
+****************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: $text;
+    font-size: $font;
+    color: $gray;
+    line-height: 1.6;
+    display: flex;
+    flex-wrap: wrap;
+}
+.headings {
+    font-size: 2.5rem;
+}
+.headings::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 80px;
+    background: $pink;
+    margin: 20px 0 30px 0;
+}
+/****************
+aside
+****************/
+aside {
+    flex: 1;
+    background-image: linear-gradient(rgba(48,54,51,.9), rgb(156, 122, 151,.9)),url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 60px;
+    @media(max-width: 768px) {
+        flex: 0 0 100%;
+        text-align: center;
+        align-items: center;
+        padding-right: 0px;
+        height: 90vh;
+    }
+    img {
+        width: 40%;
+        border-radius: 50%;
+        border: 5px solid $pink;
+    }
+    h1 {
+        font-weight: 300;
+        padding: 30px 0;
+        color: $white;
+        span {
+            color: $green;
+            font-weight: 700;
+            font-style: italic;
+            letter-spacing: 2px;
+        }
+    }
+    a {
+        color: $green;
+        margin-left: 20px;
+        font-size: 2rem;
+        &:hover {
+            color: $white;
+            transition: $transition;
+        }
+    }
+}
+
+/****************
+main
+****************/
+.main {
+    flex: 2;
+    padding: 40px;
+    height: 100vh;
+    overflow: scroll;
+    @media(max-width: 768px) {
+        flex: 0 0 100%;
+        height: auto;
+    }
+    /*** about ***/ 
+    .about {
+        button {
+            @include btn;
+        }
+        &::after {
+            @include line;
+        }
+    }
+    /*** portfolio ***/ 
+    .portfolio {
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .col {
+                flex: 0 0 48%;
+                margin-bottom: 40px;
+                @media(max-width: 768px) {
+                    flex: 0 0 100%;
+                }
+                img {
+                    width: 100%;
+                    &:hover {
+                        opacity: .6;
+                        transition: $transition;
+                        transform: scale(1.1);
+                    }
+                }
+                h4 {
+                    font-size: 2rem;
+                    color: $pink;
+                }
+            }
+        }
+        button {
+            @include btn;
+        }
+        &::after {
+            @include line;
+        }
+    }
+    /*** footer ***/ 
+    footer {
+        padding-bottom: 40px;
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            form {
+                flex: 2;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding-right: 50px;
+                padding-top: 20px;
+                @media(max-width: 768px) {
+                    padding-right: 0px;
+                }
+                input {
+                    flex: 0 0 48%;
+                    @media(max-width: 768px) {
+                        flex: 0 0 100%;
+                    }
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    border: none;
+                    background: $lightGray;
+                }
+                textarea {
+                    flex: 0 0 100%;
+                    padding: 10px;
+                    border: none;
+                    background: $lightGray;
+                }
+                button {
+                    @include btn;
+                    background: $pink;
+                    border: 2px solid $pink;
+                    color: $white;
+                    &:hover {
+                        background: $green;
+                        border: 2px solid $green;
+                        color: $white;
+                    }
+                }
+            }
+            .contact {
+                flex: 1;
+                ul {
+                    list-style: none;
+                    padding-left: 20px;
+                    line-height: 2.5;
+                    @media(max-width: 768px) {
+                        padding-left: 0px;
+                        margin-top: 30px;
+                    }
+                    li {
+                        font-size: 1.2rem;
+                        i {
+                            color: $pink;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
